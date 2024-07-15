@@ -1,7 +1,8 @@
 # VBA-challenge
-Sub StockTicker()
+    Sub StockTicker()
+    
     Dim ws As Worksheet
-
+    
     For Each ws In Worksheets
     
         ws.Range("I1").Value = "Ticker"
